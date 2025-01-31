@@ -1,6 +1,6 @@
 source("./classification/bayesian_group_sparse_linear_classification_variational_train.R")
 source("./classification/full_bayesian_group_sparse_linear_classification_variational_train.R")
-# create a synthetic data set (Example 2)
+# create a synthetic data set
 library(MASS)
 set.seed(12345)
 N <- 5000
