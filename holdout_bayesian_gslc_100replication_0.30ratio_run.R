@@ -2,8 +2,8 @@ source("./classification/bayesian_group_sparse_linear_classification_variational
 
 library(AUC)
 
-X_char <- read.csv("train_data_points.csv", sep = ",", header = FALSE)
-y_tra <- read.csv("train_class_labels.csv",header = FALSE)
+X_char <- read.csv("./splice_site_detection/train_data_points.csv", sep = ",", header = FALSE)
+y_tra <- read.csv("./splice_site_detection/train_class_labels.csv",header = FALSE)
 
 y_tra[y_tra == 2] <- 0
 y_tra <- 2 * y_tra - 1
