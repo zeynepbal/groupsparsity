@@ -30,5 +30,7 @@ source("synthetic_data_demo.R")
 To reproduce the splice-site cross-validation experiments, run the following scripts separately from the same working directory:
 
 source("bayesian_gslc_100replication_4fold_run.R")
+
 source("full_bayesian_gslc_100replication_4fold_run.R")
+
 source("group_lasso_100replication_4fold_run.R")
